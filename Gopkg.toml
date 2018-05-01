@@ -65,10 +65,6 @@
 [[constraint]]
   name = "github.com/roasbeef/btcwallet"
   revision = "ccd48bb4720f2baeaa795cac81264f6ced2da4c7"
-
-[[constraint]]
-  name = "github.com/JimmyMow/btcwallet"
-  revision = "ed6ec63a8b10c7e2c29ae4f0367a515a0faa1d08"
   source = "https://github.com/JimmyMow/btcwallet"
 
 [[constraint]]
