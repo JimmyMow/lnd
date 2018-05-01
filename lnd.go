@@ -47,7 +47,8 @@ import (
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/wire"
 	"github.com/roasbeef/btcutil"
-	"github.com/roasbeef/btcwallet/wallet"
+	// "github.com/roasbeef/btcwallet/wallet"
+	"github.com/JimmyMow/btcwallet/wallet"
 )
 
 const (
@@ -108,6 +109,7 @@ func lndMain() error {
 
 	// Show version at startup.
 	ltndLog.Infof("Version %s", version())
+	ltndLog.Infof("yo")
 
 	var network string
 	switch {

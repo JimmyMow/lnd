@@ -13,6 +13,12 @@
   revision = "e06297f34865a50b8e473105e52cb64ad1b55da8"
 
 [[projects]]
+  name = "github.com/JimmyMow/btcwallet"
+  packages = ["wallet"]
+  revision = "ed6ec63a8b10c7e2c29ae4f0367a515a0faa1d08"
+  source = "https://github.com/JimmyMow/btcwallet"
+
+[[projects]]
   name = "github.com/Yawning/aez"
   packages = ["."]
   revision = "4dad034d9db2caec23fb8f69b9160ae16f8d46a3"
@@ -155,6 +161,38 @@
   name = "github.com/lightningnetwork/lightning-onion"
   packages = ["."]
   revision = "c86137582e53fe3ba26681a98f911b546970893e"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/lightningnetwork/lnd"
+  packages = [
+    "aezeed",
+    "autopilot",
+    "brontide",
+    "chainntnfs",
+    "chainntnfs/bitcoindnotify",
+    "chainntnfs/btcdnotify",
+    "chainntnfs/neutrinonotify",
+    "channeldb",
+    "contractcourt",
+    "discovery",
+    "htlcswitch",
+    "keychain",
+    "lnrpc",
+    "lntest",
+    "lnwallet",
+    "lnwallet/btcwallet",
+    "lnwire",
+    "macaroons",
+    "multimutex",
+    "routing",
+    "routing/chainview",
+    "shachain",
+    "torsvc",
+    "walletunlocker",
+    "zpay32"
+  ]
+  revision = "09c997983127bb1e575d97c69aa364a82cfb1df7"
 
 [[projects]]
   name = "github.com/ltcsuite/ltcd"
@@ -359,6 +397,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "7edcc418d8e2f483001838e05dc77e3fe613273418f8ddf7efd5cee6df68c6a8"
+  inputs-digest = "c4ca4a1835752e5e6d93fd3a33e3959b5f94629f352b62ace544744151cc6c10"
   solver-name = "gps-cdcl"
   solver-version = 1
